@@ -1,0 +1,252 @@
+Last login: Tue Feb 15 08:54:38 on ttys000
+milicalucic@MBP-von-Milica ~ % ssh milica@zam.chrishofer.net -p 765
+milica@zam.chrishofer.net's password: 
+Permission denied, please try again.
+milica@zam.chrishofer.net's password: 
+milica@localhost:~$ cd public_html/web
+milica@localhost:~/public_html/web$ ls
+ index.html  'index.html '
+milica@localhost:~/public_html/web$ cat web
+cat: web: No such file or directory
+milica@localhost:~/public_html/web$ cat public_html/web
+cat: public_html/web: No such file or directory
+milica@localhost:~/public_html/web$ cd
+milica@localhost:~$ cd web
+-bash: cd: web: No such file or directory
+milica@localhost:~$ cd public_html/web
+milica@localhost:~/public_html/web$ nano index.html
+milica@localhost:~/public_html/web$ nano index.html
+milica@localhost:~/public_html/web$ cd
+milica@localhost:~$ cd public_html
+milica@localhost:~/public_html$ mkdir rezepte
+milica@localhost:~/public_html$ cd rezepte
+milica@localhost:~/public_html/rezepte$ nano index.html
+milica@localhost:~/public_html/rezepte$ nano index.html
+milica@localhost:~/public_html/rezepte$ nano index.htmly 
+milica@localhost:~/public_html/rezepte$ cd ..
+milica@localhost:~/public_html$ cd..
+cd..: command not found
+milica@localhost:~/public_html$ cd
+milica@localhost:~$ cd git
+-bash: cd: git: No such file or directory
+milica@localhost:~$ cd gituebung2
+milica@localhost:~/gituebung2$ cd
+milica@localhost:~$ git config --global pull.rebase false
+milica@localhost:~$ ls -l
+total 124
+-rw-rw-r-- 1 milica milica    11 Feb 14 12:04 fruehling
+-rw-rw-r-- 1 milica milica 74724 Feb 14 10:03 geschichte3.txt
+drwxrwxr-x 3 milica milica  4096 Feb 15 10:51 gituebung
+drwxrwxr-x 3 milica milica  4096 Feb 15 12:35 gituebung2
+-rw-rw-r-- 1 milica milica    10 Feb 14 12:04 herbst
+drwxr-x--x 5 milica milica  4096 Feb 16 10:23 public_html
+drwxrwxr-x 6 milica milica  4096 Feb 14 12:15 rezepte
+-rw-rw-r-- 1 milica milica    25 Feb 14 12:04 sommer
+-rw-rw-r-- 1 milica milica    14 Feb 14 12:10 sommer.txt
+drwxrwxr-x 2 milica milica  4096 Feb 14 11:59 uebung
+drwxrwxr-x 2 milica milica  4096 Feb 14 10:46 uebung2
+drwxrwxr-x 2 milica milica  4096 Feb 14 15:26 web1
+-rw-rw-r-- 1 milica milica    11 Feb 14 12:04 winter
+milica@localhost:~$ cat README.md
+cat: README.md: No such file or directory
+milica@localhost:~$ cd gituebung2
+milica@localhost:~/gituebung2$ cat README.md
+# gituebung2
+aduiadhia
+# Meine zweite Ueberschrift
+
+Das ist ein Text
+
+* Eins
+* Zwei 
+* Drei
+* Vier
+jdfshos
+milica@localhost:~/gituebung2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+milica@localhost:~/gituebung2$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 654 bytes | 654.00 KiB/s, done.
+From https://github.com/micilucic/gituebung2
+   1a19e3e..b63a17c  main       -> origin/main
+Updating 1a19e3e..b63a17c
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+milica@localhost:~/gituebung2$ nano README.md
+milica@localhost:~/gituebung2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+milica@localhost:~/gituebung2$ nano README.md
+milica@localhost:~/gituebung2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+milica@localhost:~/gituebung2$ git add README.md
+milica@localhost:~/gituebung2$ git commit -m "added some stuff"
+[main 6e36c57] added some stuff
+ 1 file changed, 1 insertion(+)
+milica@localhost:~/gituebung2$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/micilucic/gituebung2.git
+   b63a17c..6e36c57  main -> main
+milica@localhost:~/gituebung2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+milica@localhost:~/gituebung2$ client_loop: send disconnect: Broken pipe
+milicalucic@MBP-von-Milica ~ % cd
+milicalucic@MBP-von-Milica ~ % ssh milica@zam.chrishofer.net -p 765
+milica@zam.chrishofer.net's password: 
+milica@localhost:~$ mkdir Projektmanagement
+milica@localhost:~$ cd Projektmanagement
+milica@localhost:~/Projektmanagement$ nano Index.txt
+milica@localhost:~/Projektmanagement$ nano index.html
+milica@localhost:~/Projektmanagement$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/milica/Projektmanagement/.git/
+milica@localhost:~/Projektmanagement$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+milica@localhost:~/Projektmanagement$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+milica@localhost:~/Projektmanagement$ git add index.html
+fatal: pathspec 'index.html' did not match any files
+milica@localhost:~/Projektmanagement$ https://github.com/micilucic/IT-Projektmanagement.git
+-bash: https://github.com/micilucic/IT-Projektmanagement.git: No such file or directory
+milica@localhost:~/Projektmanagement$ touch homepage
+milica@localhost:~/Projektmanagement$ nano homepage
+milica@localhost:~/Projektmanagement$ touch homepage.html
+milica@localhost:~/Projektmanagement$ projektmanagement status
+projektmanagement: command not found
+milica@localhost:~/Projektmanagement$ nano homepage.html
+milica@localhost:~/Projektmanagement$ nano homepage.html
+milica@localhost:~/Projektmanagement$ nano homepage.html
+milica@localhost:~/Projektmanagement$ cd ..
+milica@localhost:~$ cd public_html
+milica@localhost:~/public_html$ mkdir Projektmanagemengt
+milica@localhost:~/public_html$ mkdir Projektmanagement
+milica@localhost:~/public_html$ cd Projektmanagement
+milica@localhost:~/public_html/Projektmanagement$ touch homepage.html
+milica@localhost:~/public_html/Projektmanagement$ nano homepage.html
+milica@localhost:~/public_html/Projektmanagement$ nano index.html
+milica@localhost:~/public_html/Projektmanagement$ cd ..
+milica@localhost:~/public_html$ cd ..
+milica@localhost:~$ pwd
+/home/milica
+milica@localhost:~$ cd projektmanagement
+-bash: cd: projektmanagement: No such file or directory
+milica@localhost:~$ cd Projektmanagement
+milica@localhost:~/Projektmanagement$ nano index.html
+milica@localhost:~/Projektmanagement$ nano index.html
+milica@localhost:~/Projektmanagement$ ls
+homepage  homepage.html  index.html
+milica@localhost:~/Projektmanagement$ nano index.html
+milica@localhost:~/Projektmanagement$ nano homepage.html
+milica@localhost:~/Projektmanagement$ rm homepage.html
+milica@localhost:~/Projektmanagement$ ls
+homepage  index.html
+milica@localhost:~/Projektmanagement$ nano homepage
+milica@localhost:~/Projektmanagement$ nano index.html
+milica@localhost:~/Projektmanagement$ ls Projektmanagement
+ls: cannot access 'Projektmanagement': No such file or directory
+milica@localhost:~/Projektmanagement$ cd ..
+milica@localhost:~$ ls
+fruehling        gituebung   herbst             public_html  sommer      uebung   web1
+geschichte3.txt  gituebung2  Projektmanagement  rezepte      sommer.txt  uebung2  winter
+milica@localhost:~$ cd Projektmanagement
+milica@localhost:~/Projektmanagement$ ls
+homepage  index.html
+milica@localhost:~/Projektmanagement$ cd homepage
+-bash: cd: homepage: Not a directory
+milica@localhost:~/Projektmanagement$ nano homepage.html
+milica@localhost:~/Projektmanagement$ nano homepage
+milica@localhost:~/Projektmanagement$ nano index.html
+milica@localhost:~/Projektmanagement$ public_html ls
+public_html: command not found
+milica@localhost:~/Projektmanagement$ cd public_html
+-bash: cd: public_html: No such file or directory
+milica@localhost:~/Projektmanagement$ nano public_html
+milica@localhost:~/Projektmanagement$ ls
+homepage  index.html
+milica@localhost:~/Projektmanagement$ homepage status
+
+Command 'homepage' not found, did you mean:
+
+  command 'dhomepage' from deb debian-goodies (0.84)
+
+Try: apt install <deb name>
+
+milica@localhost:~/Projektmanagement$ cd 
+milica@localhost:~$ cd public_html
+milica@localhost:~/public_html$ ls
+Projektmanagemengt  Projektmanagement  rezepte  web  web1
+milica@localhost:~/public_html$ cd Projektmanagement
+milica@localhost:~/public_html/Projektmanagement$ ls
+homepage.html  index.html
+milica@localhost:~/public_html/Projektmanagement$ nano homepage.html 
+milica@localhost:~/public_html/Projektmanagement$ https://github.com/micilucic/IT-Projektmanagement.git
+-bash: https://github.com/micilucic/IT-Projektmanagement.git: No such file or directory
+milica@localhost:~/public_html/Projektmanagement$ nano homepage.html
+milica@localhost:~/public_html/Projektmanagement$ nano homepage.html
+milica@localhost:~/public_html/Projektmanagement$ ls
+homepage.html  index.html
+milica@localhost:~/public_html/Projektmanagement$ nano index.html
+milica@localhost:~/public_html/Projektmanagement$ nano index.html 
+
+  GNU nano 4.8                                              index.html                                                        
+<!-- Kommentar -->
+
+<body>
+
+
+
+<h1>Homepage </h1>
+
+
+<p>Wir sind ein Unternehmen mit langjähriger Erfahrung und Traditionen in der Herstellung von Alkoholmessgeräten. </p>
+
+<h2>Unsere Produkte:</h2>
+
+<a href="https://www.anton-paar.com/at-de/produkte/details/alcolyzer-analysensystem/">Messgerät Alcolyzer </a>
+
+<a href="https://www.anton-paar.com/at-de/produkte/details/alkohol-und-extraktmessgeraet-alex-500/">Messgerät Alex 500 ><a hr>
+
+</body>
+</html>
