@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8" s="">
+
+<title> Homepage Kunde</title>
+<style>
+body {
+        background-color: #D6E0F5;
+        font-family: arial;
+        }
+h1, h2 {
+        color: darkblue;
+        font-family: arial;
+        }
+h1      {
+        text-align: center;
+        font-size: 16pt;
+        {
+
+</style>
+</head>
+<!-- Kommentar -->
+
+<body>
+
+
+
+<h1>Homepage </h1>
+
+
+<p>Wir sind ein Unternehmen mit langjähriger Erfahrung und Traditionen in der Herstellung von Alkoholmessgeräten. </p>
+
+<h2>Unsere Produkte:</h2>
+
+<a href="https://www.anton-paar.com/at-de/produkte/details/alcolyzer-analysensystem/">Messgerät Alcolyzer </a>
+
+<a href="https://www.anton-paar.com/at-de/produkte/details/alkohol-und-extraktmessgeraet-alex-500/">Messgerät Alex 500 ><a href="https://www.anton-paar.com/at-de/produkte/details/snap/">Messgerät Snap </a>
+
+</body>
+</html>
