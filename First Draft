@@ -32,9 +32,11 @@ h1      {
 
 <h2>Unsere Produkte:</h2>
 
-<a href="https://www.anton-paar.com/at-de/produkte/details/alcolyzer-analysensystem/">Messgerät Alcolyzer </a>
-
-<a href="https://www.anton-paar.com/at-de/produkte/details/alkohol-und-extraktmessgeraet-alex-500/">Messgerät Alex 500 ><a href="https://www.anton-paar.com/at-de/produkte/details/snap/">Messgerät Snap </a>
+<li> <a href="https://www.anton-paar.com/at-de/produkte/details/alcolyzer-analysensystem/">Messgerät Alcolyzer </a> </li>
+<br>
+<li> <a href="https://www.anton-paar.com/at-de/produkte/details/alkohol-und-extraktmessgeraet-alex-500/">Messgerät Alex 500 > </li>
+<br>
+<li> <a href="https://www.anton-paar.com/at-de/produkte/details/snap/">Messgerät Snap </a> </li>
 
 </body>
 </html>
